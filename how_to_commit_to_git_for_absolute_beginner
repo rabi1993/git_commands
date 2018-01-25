@@ -1,0 +1,16 @@
+1. create a directory say git_local and use cd to enter (cd git_local)
+2. Execute command git init here
+3. Now put your all project files here assuming this (git_local) directory is 
+   parent directory for all your files. If someone clone or download your
+   project, got git_local directory contaning all other files that you put.
+4. Now, Create a new reository(say first_repo) on github.com with desire name, d   escription goes   to your README.md file autometically.
+5. If done copy the repository url location (eg: https://github.com/user_name/fi   rst_repo).
+6. Go to your created proect files (eg: git_local) directory again and type foll   owing commands 
+    git pull <complete_url_of_your_repo>
+    (eg: git pull https://github.com/user_name/first_repo) 
+   That will pull your repo to local machine.
+7. Now add your all project files using git add <file_or_dir_name> command here 
+8. Finnaly use commit command to commit on to github. Use command git commit
+9. Last command is to push your changes to git website using followimng command
+   git push --set-upstream https://github.com/u_name/first_repo/ master
+   It will ask for authentication. provide same to complete process.
