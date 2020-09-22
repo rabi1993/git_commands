@@ -1,5 +1,8 @@
+EDIT : In the below method you need set oigin also before you run -> git puch -u origin master 
+
 To initialize new directory in local: git init
 THEN use below commands:
+
 
 git init
 git clone https://github.com/rabinandan/my-keras
