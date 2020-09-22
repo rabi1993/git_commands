@@ -1,0 +1,15 @@
+To initialize new directory in local: git init
+THEN use below commands:
+
+git init
+git clone https://github.com/rabinandan/my-keras
+cd my-keras/
+git add --all
+git commit -m "added dogs-cats classification model"
+git push -u origin master
+  
+.....
+In the meantime when someone pushed into git then 
+ git pull
+ git puch -u origin master 
+.....
