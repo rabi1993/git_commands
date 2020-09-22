@@ -1,0 +1,8 @@
+when you clone 'origin' as already set, so no need to do anything explicitly. 
+Just execute below steps and you can successfuly push your changes to git.
+........
+git clone https://github.com/rabinandan/my-keras.git
+git add some-model-stuff.ipynb 
+git commit -m "added keras-dog-cat classification and some model stuff"
+git push origin master
+........
